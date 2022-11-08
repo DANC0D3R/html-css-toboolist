@@ -15,35 +15,66 @@
 <body>
     <header>
         <!-- Logo -->
-        <div class="container">
-            <img id="logo-img" src="img/Logo.png" alt="Logo Toboolist">
+        <img id="logo-img" src="img/Logo.png" alt="Logo Toboolist">
         <span id="logo-text">Toboolist</span>
-        </div>
-
     </header>
 
     <main id="body-bg">
         <header>
             <!-- Bottoni -->
-            <div id="button-container">
                 <span>
                     <input id="add-task" type="button" value="Add Task">
                 </span>
                 <span>
                     <input id="add-section" type="button" value="Add Section">
                 </span>
-            </div>
         </header>
         <hr>
         <main>
             <!-- Activity -->
-            <span class="triangle"></span>
+            <!-- New Task -->
+            <div>
+                <span class="triangle"></span>
             <strong class="task-title">New Task</strong>
-            <ul>
-                <li>
 
+            <ul>
+                <li><span class="check"><strong>&#10003;</strong></span> Quarterly Newsletter <span class="categories editorial">Editorial</span>
+                    </span>
                 </li>
             </ul>
+            </div>
+
+            <!-- Today -->
+            <div>
+                <span class="triangle"></span>
+            <strong class="task-title">Today</strong>
+
+            <ul>
+                <li><span class="check"><strong>&#10003;</strong></span> Recruiting blog post <span class="categories editorial">Editorial</span></span></li>
+                <br>
+                <li><span class="check"><strong>&#10003;</strong></span> Mobile app launch <span class="categories qone-goals">Q1 Goals</span></span></li>
+                <br>
+                <li><span class="cross"><strong>&#x2718;</strong></span> Interview John H. <span class="categories recruiting">Recruiting</span></span></li>
+                <br>
+                <li><span class="check"><strong>&#10003;</strong></span> Summit update to mobile storefronts <span class="categories mobile">Mobile</span></span></li>
+            </ul>
+            </div>
+
+            <!-- Upcoming -->
+            <div>
+                <span class="triangle"></span>
+            <strong class="task-title">Upcoming </strong>
+
+            <ul>
+                <li><span class="cross"><strong>&#x2718;</strong></span> Schedule Meeting with Alex</span></li>
+                <br>
+                <li><span class="check"><strong>&#10003;</strong></span> Homepage refresh <span class="categories website">Website</span></span></li>
+                <br>
+                <li><span class="check"><strong>&#10003;</strong></span> Onboard new Sales Team members <span class="categories sales">Sales</span></span></li>
+                <br>
+                <li><span class="check"><strong>&#10003;</strong></span> Review editorial calendar <span class="categories editorial">Editorial</span></span></li>
+            </ul>
+            </div>
         </main>
     </main>
 </body>
