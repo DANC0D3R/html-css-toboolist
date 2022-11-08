@@ -3,5 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 
+.conatiner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#logo-img{
+    width: 60px;
+    vertical-align: middle;
+}
+
+#logo-text{
+    font-size: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/* STILE BODY */
+body-bg{
+    background-color: #f6f8f9;
+}
