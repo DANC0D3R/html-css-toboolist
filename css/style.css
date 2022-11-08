@@ -24,10 +24,12 @@
 
 .logo{
     margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* STILE BODY */
-#body-bg{
+.body-bg{
     background-color: #eeeeee;
 }
 
@@ -35,20 +37,29 @@
     width: 60%;
     margin: 0 auto;
     background-color: white;
+    border-radius: 6px;
+    margin-top: 5px;
 }
 
 .side-padding{
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .vert-padding{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.separatore{
+    border: 3px solid;
+    border-color: #eeeeee;;
 }
 
 /* STILE BOTTONI */
 #button-container{
-    background-color:#ffffff;
+    color:#eeeeee;
+    border: 2px solid;
+    border-color: #eeeeee;
 }
 
 #add-task{
