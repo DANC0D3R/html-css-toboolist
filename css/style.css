@@ -1,5 +1,5 @@
 /* RESET */
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,19 +12,38 @@
 }
 
 #logo-img{
-    width: 60px;
+    width: 50px;
     vertical-align: middle;
 }
 
 #logo-text{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     vertical-align: middle;
 }
 
+.logo{
+    margin-left: 20px;
+}
+
 /* STILE BODY */
-body-bg{
-    background-color: #ffffff;
+#body-bg{
+    background-color: #eeeeee;
+}
+
+.white-bg{ 
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.side-padding{
+    padding-left: 30px;
+}
+
+.vert-padding{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* STILE BOTTONI */
