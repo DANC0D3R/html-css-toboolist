@@ -45,15 +45,23 @@ body{
     margin-top: 5px;
 }
 
+.side-padding-h{
+    padding-left: 50px;
+}
+
+.vert-padding-h{
+    padding-top: 20px;
+
+}
+
 .side-padding{
     padding-left: 20px;
 }
 
 .vert-padding{
     padding-top: 10px;
-    padding-bottom: 0px;
-}
 
+}
 
 .vert-margin{
     margin-top: 50px;
@@ -78,7 +86,7 @@ body{
 	display:inline-block;
 	color:#ffffff;
 	font-size:15px;
-	padding:10px 20px;
+	padding:5px 10px;
 }
 
 #add-section{
@@ -88,7 +96,7 @@ body{
 	display:inline-block;
 	color:#ccd1d5;
 	font-size:15px;
-	padding:10px 20px;
+	padding:5px 10px;
 }
 
 #task-container{
