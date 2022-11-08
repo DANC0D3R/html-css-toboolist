@@ -57,7 +57,7 @@ body-bg{
 
 }
 
-.tak-title{
+.task-title{
     font-weight: bold;
 }
 
@@ -66,6 +66,7 @@ body-bg{
     font-size: 30px;
 }
 
+/* SPUNTA VERDE TASKS */
 .check{
     display: inline-block;
     color: #6fc5b1;
@@ -79,6 +80,7 @@ body-bg{
     font-size: 10px;
 }
 
+/* X ROSSA TASKS */
 .cross{
     display: inline-block;
     color: #e84a4a;
@@ -92,6 +94,7 @@ body-bg{
     font-size: 10px;
 }
 
+/* RETTANGOLO ETICHETTE */
 .categories{
     width: 60px;
     border-radius: 10px;
