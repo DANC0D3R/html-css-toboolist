@@ -43,4 +43,15 @@ body-bg{
 
 }
 
-#task-container
+#task-container{
+
+}
+
+.tak-title{
+    vertical-align: middle;
+}
+
+.triangle::before{
+    content: '\1F893';
+    vertical-align: middle;
+}
