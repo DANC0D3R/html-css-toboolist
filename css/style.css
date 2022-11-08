@@ -57,10 +57,12 @@ body-bg{
 
 }
 
+/* TITOLO SEZIONE */
 .task-title{
     font-weight: bold;
 }
 
+/* FRECCIA MENU */
 .triangle::before{
     content: '\1D14F';
     font-size: 30px;
