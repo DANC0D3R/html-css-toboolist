@@ -24,5 +24,23 @@
 
 /* STILE BODY */
 body-bg{
-    background-color: #f6f8f9;
+    background-color: #ffffff;
 }
+
+/* STILE BOTTONI */
+#button-container{
+    background-color:#ffffff;
+}
+
+#add-task{
+    color: #ffffff;
+    background-color: #47adf1;
+}
+
+#add-tak{
+    color: #ccd1d5;
+    background-color: #ffffff;
+
+}
+
+#task-container
